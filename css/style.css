@@ -3,27 +3,24 @@
 }
 .box {
     text-align: center;
-    justify-content: center;
     width: 100%;
     background: orange;
     color: white;
     
 }
-.img {
-    border-block-width: 10px;
-    border-block-style: solid;
-    border-block-color: pink;
+.art {
+
     
+}
+.img {
+    vertical-align: top;
 }
 @media screen and (max-width: 600px) {
     .box {
         background: dodgerblue;
     }
 }
-.container {
-    display: flex;
-    flex-direction: row;
-}
+
 .footerBox1 {
     background: lightpink;
     width: 50%;
@@ -40,9 +37,9 @@
         flex-direction: column;
     }
     .footerBox1 {
-        width: 100%;
+       
     }
     .footerBox2 {
-        width: 100%;
+       
     }
 }
