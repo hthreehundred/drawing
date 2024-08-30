@@ -10,7 +10,9 @@
     
 }
 .img {
-    margin:50px;
+    border-block-width: 10px;
+    border-block-style: solid;
+    border-block-color: pink;
     
 }
 @media screen and (max-width: 600px) {
