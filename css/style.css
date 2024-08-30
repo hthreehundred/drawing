@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 .box {
-    display: flex;
+    text-align: center;
     justify-content: center;
     width: 100%;
     background: orange;
     color: white;
-    margin-bottom: 30px;
+    
+}
+.img {
+    margin:50px;
     
 }
 @media screen and (max-width: 600px) {
