@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* 세로 정렬 */
+.col {
+  border: 2px solid red;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column; /*수직 정렬*/
+}
+.icon {
+  border: 2px solid black;
+  /* margin-top: 0.5rem; */
+  margin: 0.7rem 1.8rem 1.8rem 1.8rem;
+}
+.icon2,
+.icon3 {
+  margin: 0.5rem;
+}
+
+.row {
+  border: 2px solid blue;
+}
+
+/* ---------------------- */
+#container {
+  display: flex;
+
+  min-height: 31.25rem;
+  max-height: 80rem;
+  /* Q1. max-height를 설정해줬는데, 왜 내부의 박스들이 overflow해도 height가 늘어나지 않나요?? */
+}
+/* 가로 정렬 */
+.w10 {
+  /* width: 10%; */
+  flex: 1 0 10%;
+}
+
+.w20 {
+  /* width: 20%; */
+  flex: 2 0 20%;
+}
+
+.w70 {
+  /* width: 70%; */
+  flex: 7 0 70%;
+}
+
+/* ---------------------- */
+
+.h20 {
+  height: 20%;
+  /* flex: 2 0 20%; */
+  /* Q2. margin 값인 0.5rem이 포함되서, container 박스를 overflow한 것같은데,
+  왜 height: 20%를 설정해줬을 때는 박스를 overflow하지 않는 거죠?? */
+  /* flex도 맨 마지막에 height 20%를 보장 해주기 때문에, 제 생각에는 둘 다 동일한 출력값을 보여야 할 것같은데, 어디에서 차이가 발생하는 건지 모르겠습니다. */
+}
+
+.h40 {
+  height: 40%;
+  /* flex: 4 0 40%; */
+  /* Q2 => .h20 과 동일 */
+}
+.h80 {
+  height: 80%;
+  /* flex: 8 0 80%; */
+  /* Q2 => .h20 과 동일 */
+}
