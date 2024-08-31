@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+}
 .box {
     text-align: center;
     width: 100%;
@@ -9,8 +12,7 @@
     
 }
 .art {
-
-    
+    object-fit : fill;
 }
 .img {
     vertical-align: top;
