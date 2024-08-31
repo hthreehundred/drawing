@@ -12,11 +12,13 @@ body {
     
 }
 .art {
-    width:30%;
+}
+img {
     object-fit : cover;
 }
 .img {
     vertical-align: top;
+
 }
 @media screen and (max-width: 600px) {
     .box {
