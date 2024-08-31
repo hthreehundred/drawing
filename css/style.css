@@ -12,6 +12,8 @@ body {
     
 }
 .art {
+    display : flex;
+    align-items : flex-start;
     width : 700px;
     height : 1000px;
 }
