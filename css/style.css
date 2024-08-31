@@ -13,9 +13,6 @@ body {
 }
 .art {
 }
-img {
-    object-fit : cover;
-}
 .img {
     vertical-align: top;
 
