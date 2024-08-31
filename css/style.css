@@ -20,7 +20,9 @@ body {
     height : 100%;
     object-fit: cover;
     vertical-align: top;
-
+}
+.comment{
+    text-align: center;
 }
 @media screen and (max-width: 600px) {
     .box {
