@@ -12,7 +12,8 @@ body {
     
 }
 .art {
-    object-fit : fill;
+    width:30%;
+    object-fit : cover;
 }
 .img {
     vertical-align: top;
